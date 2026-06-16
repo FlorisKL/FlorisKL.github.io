@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Skills - Floris Klarenbeek</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-6rg9X2Q1iCR7jfMIXjR79sB7xZr6yKf6Ngn0A69efa6bBc5oJ6kvMkD3QAa5uCzR" crossorigin="anonymous">
+    
 </head>
 <body>
     
@@ -22,12 +23,37 @@
         </div>
       </div>
     </header>
-      <main>
-      <div class="project"><img id="js" src="img/img_javascript_480.jpg" alt="">Dit is waar ik ga vertellen over JavaScript</div>
-
-      <div class="project"><img id="css" src="img/css.png" alt="">Dit is waar ik ga vertellen over CSS</div>
-
-      <div class="project"><img id="html" src="img/htmllogo.png" alt="">Dit is waar ik ga vertellen over HTML</div>
+    <main class="container mb-5">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/img_javascript_480.jpg" class="card-img-top" alt="JavaScript">
+            <div class="card-body">
+              <h2 class="card-title h5">JavaScript</h2>
+              <p class="card-text text-muted">Interactie en logica bouwen met moderne JavaScript.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/css.png" class="card-img-top" alt="CSS">
+            <div class="card-body">
+              <h2 class="card-title h5">CSS</h2>
+              <p class="card-text text-muted">Stijl en layout creëren met nette CSS-structuur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/htmllogo.png" class="card-img-top" alt="HTML">
+            <div class="card-body">
+              <h2 class="card-title h5">HTML</h2>
+              <p class="card-text text-muted">Webpagina’s opbouwen met HTML.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Np4fVl+I1cB5MlzZwZJlY8ETiQJyY8N+I0jrTUs7wNZ04/6rd2tWaShF0UP7hoji" crossorigin="anonymous"></script>
 </body>
 </html>
